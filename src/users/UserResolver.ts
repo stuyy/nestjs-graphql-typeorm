@@ -8,9 +8,9 @@ import {
   Mutation,
 } from '@nestjs/graphql';
 import { User } from '../graphql/models/User';
-import { mockUsers } from 'src/__mocks__/mockUsers';
+import { mockUsers } from '../__mocks__/mockUsers';
 import { UserSetting } from '../graphql/models/UserSetting';
-import { mockUserSettings } from 'src/__mocks__/mockUserSettings';
+import { mockUserSettings } from '../__mocks__/mockUserSettings';
 import { CreateUserInput } from '../graphql/utils/CreateUserInput';
 import { Inject } from '@nestjs/common';
 import { UserService } from './UserService';
